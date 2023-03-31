@@ -1,0 +1,70 @@
+.inner{  /* 가운데 정렬할 수 있음, 박스를 가운데 정렬할때 이렇게 씀*/
+    max-width: 1380px;
+    margin: 0 auto;
+
+}
+
+.text{
+    font-size: 80px;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.body{ /*body 픽셀에 먼저 height를 주어야 자식들의 height에 적용이 된다!*/
+    height: 800px;
+
+}
+
+.nav{
+    height: 15%;
+    text-align: center;
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.main{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ft{
+    height: 15%;
+    text-align: center;
+
+}
+
+.c{
+    font-weight: bold;
+    max-width: 1380px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: black;
+
+}
+
+a:visited{
+    color: black;
+}
+
+@media(max-width:767px){   /*반응형 레이아웃: 화면의 크기에따라 달라지게 설정할 수 있음*/
+
+    body{color: red}
+
+}
+
